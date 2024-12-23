@@ -22,6 +22,9 @@ const messages = {
         form: {
           email: "Email",
           password: "Senha",
+          invalidEmail: "Email inválido",
+          requiredEmail: "Email obrigatório",
+          requiredPassword: "Senha inválida",
         },
         buttons: {
           submit: "Entrar",
@@ -347,6 +350,9 @@ const messages = {
           helps: "Ajuda",
           messagesAPI: "API",
           schedules: "Agendamentos",
+          campaignsList: "Listagem",
+          campaignsContacts: "Contatos",
+          campaignsSettings: "Configurações",
           campaigns: "Campanhas",
           annoucements: "Informativos",
           chats: "Chat Interno",

@@ -1,3 +1,5 @@
+import { invalid } from "moment";
+
 const messages = {
   en: {
     translations: {
@@ -22,6 +24,9 @@ const messages = {
         form: {
           email: "Email",
           password: "Password",
+          invalidEmail: "Invalid email address",
+          requiredEmail: "Required email address",
+          requiredPassword: "Not a valid password",
         },
         buttons: {
           submit: "Log In",
@@ -340,6 +345,9 @@ const messages = {
           messagesAPI: "API",
           schedules: "Schedules",
           campaigns: "Campaigns",
+          campaignsList: "List",
+          campaignsContacts: "Contacts",
+          campaignsSettings: "Settings",
           annoucements: "Announcements",
           chats: "Internal Chat",
           financeiro: "Financial",

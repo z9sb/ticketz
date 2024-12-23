@@ -22,6 +22,9 @@ const messages = {
         form: {
           email: "Email",
           password: "Kata Sandi",
+          invalidEmail: "Alamat email tidak valid",
+          requiredEmail: "Alamat email diperlukan",
+          requiredPassword: "Kata sandi tidak valid",
         },
         buttons: {
           submit: "Masuk",
@@ -349,6 +352,9 @@ const messages = {
           helps: "Bantuan",
           messagesAPI: "API",
           schedules: "Penjadwalan",
+          campaignsList: "Daftar",
+          campaignsContacts: "Kontak",
+          campaignsSettings: "Pengaturan",
           campaigns: "Kampanye",
           annoucements: "Pengumuman",
           chats: "Chat Internal",

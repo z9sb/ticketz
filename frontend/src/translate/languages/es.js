@@ -11,6 +11,7 @@ const messages = {
           name: "Nombre",
           email: "Correo electrónico",
           password: "Contraseña",
+
         },
         buttons: {
           submit: "Registrarse",
@@ -22,6 +23,9 @@ const messages = {
         form: {
           email: "Correo electrónico",
           password: "Contraseña",
+          invalidEmail: "Dirección de correo electrónica no válida",
+          requiredEmail: "Dirección de correo electrónica requerida",
+          requiredPassword: "Contraseña no válida",
         },
         buttons: {
           submit: "Entrar",
@@ -345,6 +349,9 @@ const messages = {
           helps: "Ayuda",
           messagesAPI: "API",
           schedules: "Agendamientos",
+          campaignsList: "Listado",
+          campaignsContacts: "Contactos",
+          campaignsSettings: "Configuraciones",
           campaigns: "Campañas",
           annoucements: "Anuncios",
           chats: "Chat Interno",

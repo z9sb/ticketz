@@ -762,7 +762,6 @@ const Dashboard = () => {
             </Paper>
           </Grid>
 
-          {/* T.M. DE ATENDIMENTO */}
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card8}

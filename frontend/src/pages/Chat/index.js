@@ -200,7 +200,6 @@ function Chat(props) {
         }
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
@@ -213,7 +212,6 @@ function Chat(props) {
         }
       });
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentChat]);
 
   useEffect(() => {
